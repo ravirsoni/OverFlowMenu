@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ravirsoni.overflowmenu.MainActivity">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/red_settings"
+            android:orderInCategory="1"
+            android:title="@string/red_settings"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/black_settings"
+            android:orderInCategory="2"
+            android:title="@string/black_settings"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/blue_settings"
+            android:orderInCategory="3"
+            android:title="@string/blue_settings"
+            app:showAsAction="never" />
+
+    </group>
+
+
+
+</menu>
+
+
